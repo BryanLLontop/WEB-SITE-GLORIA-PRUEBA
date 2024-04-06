@@ -102,74 +102,88 @@ https://templatemo.com/tm-559-zay-shop
         </div>
     </div>
 
-
-    <!-- Start Content Page -->
-    <div class="container-fluid bg-light py-5">
-        <div class="col-md-6 m-auto text-center">
-            <h1 class="h1">Contact Us</h1>
-            <p>
-                Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet.
-            </p>
+    <div class="carousel slide" data-ride="carousel"">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/nc_3.jpg" class="img-fluid w-100" alt="Responsive image">
+            </div>
         </div>
     </div>
+    <!-- Close Banner -->
 
-    <!-- Start Map -->
-    <div id="mapid" style="width: 100%; height: 300px;"></div>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-    <script>
-        var mymap = L.map('mapid').setView([-23.013104, -43.394365, 13], 13);
-
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-            maxZoom: 18,
-            attribution: 'Zay Telmplte | Template Design by <a href="https://templatemo.com/">Templatemo</a> | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-                '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            id: 'mapbox/streets-v11',
-            tileSize: 512,
-            zoomOffset: -1
-        }).addTo(mymap);
-
-        L.marker([-23.013104, -43.394365, 13]).addTo(mymap)
-            .bindPopup("<b>Zay</b> eCommerce Template<br />Location.").openPopup();
-
-        mymap.scrollWheelZoom.disable();
-        mymap.touchZoom.disable();
-    </script>
-    <!-- Ena Map -->
-
-    <!-- Start Contact -->
-    <div class="container py-5">
-        <div class="row py-5">
-            <form class="col-md-9 m-auto" method="post" role="form">
-                <div class="row">
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputname">Name</label>
-                        <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
-                    </div>
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputemail">Email</label>
-                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <label for="inputsubject">Subject</label>
-                    <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Subject">
-                </div>
-                <div class="mb-3">
-                    <label for="inputmessage">Message</label>
-                    <textarea class="form-control mt-1" id="message" name="message" placeholder="Message" rows="8"></textarea>
-                </div>
-                <div class="row">
-                    <div class="col text-end mt-2">
-                        <button type="submit" class="btn btn-success btn-lg px-3">Let’s Talk</button>
-                    </div>
-                </div>
-            </form>
+    <!-- Start Section -->
+    <section class="container py-5">
+        <div class="row text-center pt-5">
+            <div class="col-lg-8 m-auto">
+                <h2 class="h2">NUESTRO COMPROMISO</h2>
+                <p class="h3">EN GLORIA ESTAMOS COMPROMETIDOS CON EL BIENESTAR DE TU FAMILIA. POR ELLO, 
+                    TRABAJAMOS PARA PRODUCIR ALIMENTOS RICOS, SALUDABLES Y NUTRITIVOS, GENERANDO IMPACTO 
+                    POSITIVO EN NUESTRA SOCIEDAD Y CUIDANDO EL MEDIOAMBIENTE.
+                </p>
+            </div>
         </div>
-    </div>
-    <!-- End Contact -->
+    </section>
+    <!-- End Section -->
+    <!-- Start Categories of The Month -->
+    <section class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 m-auto">
+                <p>
+                    Cada día, acopiamos y procesamos millones de litros de leche de diversas cuencas del Perú 
+                    para ponerlos al alcance de todas las familias peruanas. Es una tarea ardua que involucra 
+                    a miles de ganaderos, acopiadores, transportistas, colaboradores de planta y comercios en 
+                    las tres regiones geográficas del Perú. Una enorme red que está en movimiento las 24 horas 
+                    del día, los 7 días de la semana, los 365 días del año. Porque, si de esfuerzo y calidad se 
+                    trata, Gloria no descansa.
+                </p>
+            </div>
+            <div class="col-lg-6 m-auto py-5">
+                <img src="assets/img/nc_4.jpg" class="rounded shadow-lg" width="70%"  alt="...">
+            </div>
+        </div>
+    </section>
+    <!-- End Categories of The Month -->
 
+    <!-- Start Brands -->
+    <section class="bg-light py-5">
+        <div class="container my-4">
+            <div class="row text-center py-3">
+                <div class="col-lg-12 m-auto">
+                    <h2 class="h2">Como peruanos conocemos la importancia de la alimentación para nuestras 
+                        familias. Nuestro compromiso es brindar lo mejor que tenemos, por eso cada año 
+                        innovamos con nuevos productos o mejoramos los ya existentes, siempre dentro de 
+                        los más elevados estándares de calidad y de nutrición.
+                    </h2>
+                    <p class="h3 py-3">
+                    GRACIAS AL TALENTO DE CADA UNO DE NUESTROS COLABORADORES, GLORIA LANZA UN PROMEDIO DE 
+                    40 NUEVOS PRODUCTOS AL AÑO. TALENTO ENFOCADO EN LA INVESTIGACIÓN Y EL DESARROLLO DE LA 
+                    BUENA NUTRICIÓN PARA EL BIEN DE NUESTROS CONSUMIDORES.
+                </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--End Brands-->
+    <section class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 m-auto">
+                <p>
+                    Desde nuestros inicios en Arequipa, hemos visto que el desarrollo personal y colectivo 
+                    empieza con la constancia, el esfuerzo y el ánimo de servir. Este es el legado de nuestros
+                    líderes: que en cada vaso de leche busquemos servir las necesidades alimenticias de las 
+                    familias, servir a los ganaderos del Perú, servir a los pequeños, medianos y grandes 
+                    comercios; pero también servir al planeta buscando el equilibrio con el medioambiente. 
+                    Cada año somos más conscientes del impacto de nuestras operaciones sobre el ecosistema. 
+                    Por ello, venimos innovando con nuevos procesos productivos, optimizando nuestros procesos
+                    y usando con mayor responsabilidad nuestros recursos.
+                </p>
+            </div>
+            <div class="col-lg-6 m-auto py-5">
+                <img src="assets/img/nc_10.jpg" class="rounded shadow-lg" width="70%"  alt="...">
+            </div>
+        </div>
+    </section>
 
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
